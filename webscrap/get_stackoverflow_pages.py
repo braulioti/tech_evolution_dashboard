@@ -5,7 +5,7 @@ import requests as requests
 from tqdm import tqdm
 
 url = 'https://stackoverflow.com/questions?tab=newest&page='
-path = './data/'
+path = '../data/'
 
 isExist = os.path.exists(path)
 if not isExist:
