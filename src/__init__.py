@@ -15,3 +15,5 @@ def init_db():
     Model.metadata.create_all(bind=engine)
 
 from src.models.tag_model import Tag
+from src.models.data_model import Data
+from src.models.data_tag_model import DataTag
